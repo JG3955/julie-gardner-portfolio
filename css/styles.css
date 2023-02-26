@@ -1,15 +1,26 @@
 body {
   background-color: honeydew;
   font-family: "Poppins", sans-serif;
+  font-weight: normal;
 }
 
 h1 {
-  color: orchid;
+  color: black;
   text-align: center;
   font-family: "Playfair Display", serif;
   font-weight: bold;
 }
 
+h2 {
+  text-align: center;
+  opacity: 75%;
+  font-size: 20px;
+}
+
 p {
   font-weight: normal;
+}
+
+.hompage-hero h1 {
+  font-size: 82px;
 }

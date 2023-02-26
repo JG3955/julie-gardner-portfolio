@@ -1,0 +1,15 @@
+body {
+  background-color: honeydew;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  color: orchid;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+p {
+  font-weight: normal;
+}

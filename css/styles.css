@@ -15,19 +15,32 @@ h3,
 h4,
 h5,
 h6 {
-  color: rgba (0, 0, 0, 0.85);
-  text-align: center;
+  color: black;
   font-family: var(--heading-font-family);
 }
 
 h1 {
   font-size: 96px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 52px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+img {
+  max-width: 100%;
 }
 
 .homepage-hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 170px 20px;
 }
 
 .homepage-hero h2 {
@@ -46,4 +59,41 @@ h1 {
   font-size: 16px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding-outline {
+  background: white;
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  color: var(--branding-color);
+  font-size: 16px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.project-img {
+  border-radius: 4px;
+}
+
+.project-description {
+  padding: 100px 60px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  .homepage-hero {
+    padding: 80px 20px;
+  }
+  .homepage-hero h2 {
+    line-height: 1.5;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }

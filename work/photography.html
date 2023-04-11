@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Hobby - Photography 📷</title>
+    <style>
+      body {
+        background: #eaf6f6;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans";
+      }
+      .theme-button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-color: #fcfefe;
+        color: rgba(102, 191, 191, 0.8);
+        border: none;
+        border-radius: 10px;
+        padding: 5px 20px;
+        font-size: 16px;
+        transition: all 150ms ease-in-out;
+      }
+      .theme-button:hover {
+        background-color: #142d4c;
+        color: #fcfefe;
+        border: none;
+        cursor: pointer;
+      }
+      .heading {
+        display: block;
+        margin: 0 auto;
+        border: 5px solid #eaf6f6;
+        border-radius: 10px;
+        padding: 15px;
+        width: 60%;
+        margin-top: 10px;
+      }
+      h1 {
+        color: #66bfbf;
+        font-size: 48px;
+        text-align: center;
+        margin: 10px;
+        height: 50px;
+      }
+      h2 {
+        color: rgba(102, 191, 191, 0.6);
+        text-align: center;
+        font-weight: 100px;
+        margin: 0px 20px;
+        padding-bottom: 20px;
+        height: 20px;
+      }
+      .container {
+        display: block;
+        margin: 0 auto;
+        max-width: 650px;
+        background-color: #fcfefe;
+        border-radius: 15px;
+        padding: 15px;
+      }
+      .camera-intro-picture {
+        border-radius: 10px;
+        max-width: 100%;
+        max-height: 90%;
+        transition: all 400ms ease-in-out;
+        margin: 30px 0px 0px 0px;
+      }
+      .camera-intro-picture:hover {
+        transform: scale(1.05);
+        filter: saturate(1.3);
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 2px;
+      }
+      .grid img {
+        max-width: 95%;
+        max-height: 75%;
+        margin: 30px auto;
+        border-radius: 10px;
+        transition: all 300ms ease-in-out;
+      }
+      .grid img:hover {
+        transform: scale(1.1);
+        filter: saturate(1.3);
+      }
+      p {
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.5);
+        text-align: justify;
+        padding-top: 10px;
+        line-height: 1.5;
+        padding: 3px;
+      }
+      .read-on {
+        text-decoration: none;
+        color: rgba(102, 191, 191, 0.7);
+        transition: all 150ms ease-in-out;
+        margin-top: 5px;
+      }
+      .read-on:hover {
+        color: #66bfbf;
+      }
+      .subscribe-button {
+        display: block;
+        padding: 10px 25px;
+        margin: 0 auto;
+        border: 8px solid transparent;
+        background-color: rgba(247, 107, 138, 0.5);
+        border-radius: 20px;
+        color: white;
+        font-size: 20px;
+        font-weight: lighter;
+        transition: all 150ms ease-in-out;
+        margin-top: 30px;
+        margin-bottom: 8px;
+      }
+      .subscribe-button:hover {
+        filter: contrast(1.8);
+        color: rgba(255, 255, 255, 0.7);
+        cursor: pointer;
+      }
+      footer {
+        text-align: center;
+        padding: 20px;
+        font-size: 20px;
+        color: rgba(102, 191, 191, 0.7);
+      }
+      footer a {
+        text-decoration: none;
+        color: rgba(102, 191, 191, 0.7);
+        font-size: 20px;
+        transition: all 150ms ease-in-out;
+      }
+      footer a:hover {
+        color: #66bfbf;
+      }
+      hr {
+        border: 0;
+        height: 4px;
+        background-color: #eaf6f6;
+        max-width: 70%;
+      }
+      .dark {
+        background: rgb(20, 45, 76) 100%;
+
+        color: #ececec;
+      }
+      .dark .container {
+        background-color: #385170;
+      }
+      .dark p {
+        color: #ececec;
+      }
+      .dark .subscribe-button {
+        background-color: #9fd3c7;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="theme-button">Change Theme</button>
+    <div class="container">
+      <div class="heading">
+        <h1>Photography</h1>
+        <hr />
+        <h2>my favorite hobby</h2>
+      </div>
+      <a href="https://en.wikipedia.org/wiki/Photography" target="_blank">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/055/219/original/AdobeStock_336198830.jpeg?1669306122"
+          alt="wooden camera with three wooden hearts on pink background"
+          class="camera-intro-picture"
+        />
+      </a>
+      <div class="grid">
+        <a href="https://stock.adobe.com/" target="_blank">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/055/208/original/AdobeStock_164714657.jpeg?1669304112"
+            alt="woman taking pictures with camera"
+          />
+        </a>
+        <a href="https://stock.adobe.com/" target="_blank">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/055/220/original/AdobeStock_287540862.jpeg?1669306134"
+            alt="laptop, tablet, phone, and pictures scattered"
+          />
+        </a>
+        <a href="https://stock.adobe.com/" target="_blank">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/055/268/original/AdobeStock_180362258.jpeg?1669335127"
+            alt="camera on dock"
+          />
+        </a>
+        <a href="https://stock.adobe.com/" target="_blank">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/055/225/original/AdobeStock_71912408.jpeg?1669306200"
+            alt="young girl posing with camera"
+          />
+        </a>
+      </div>
+      <p>
+        Photography is the art, application, and practice of creating durable
+        images by recording light, either electronically by means of an image
+        sensor, or chemically by means of a light-sensitive material such as
+        photographic film. It is employed in many fields of science,
+        manufacturing, and business, as well as its more direct uses for art,
+        film and video production, recreational purposes, hobby, and mass
+        communication.
+        <br /><br />
+        <a
+          href="https://en.wikipedia.org/wiki/Photography"
+          target="_blank"
+          class="read-on"
+        >
+          <strong>Read on Widipedia </strong>
+        </a>
+      </p>
+
+      <button class="subscribe-button">Subscribe</button>
+    </div>
+    <footer>
+      Coded by
+      <a
+        href="http://www.linkedin.com/in/julie-gardner-8ab56214"
+        target="_blank"
+      >
+        Julie Gardner
+      </a>
+    </footer>
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+        body.classList.toggle("dark");
+      }
+      let themeChange = document.querySelector(".theme-button");
+      themeChange.addEventListener("click", changeTheme);
+    </script>
+
+    <script>
+      function subscribe() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email address?");
+        if (name.length > 1 && email.length > 1) {
+          alert(
+            name +
+              ", thank you for subscribing! You'll be hearing from us soon! 📷"
+          );
+        } else alert("Please enter a valid name and a valid email address");
+      }
+
+      let subscribeButton = document.querySelector(".subscribe-button");
+      subscribeButton.addEventListener("click", subscribe);
+    </script>
+  </body>
+</html>

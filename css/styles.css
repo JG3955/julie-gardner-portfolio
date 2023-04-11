@@ -202,6 +202,21 @@ footer .social-links a:hover {
   background-color: var(--branding-color);
 }
 
+footer p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+}
+
+footer p a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+footer p a:hover {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
 @media (max-width: 1000px) {
   h1 {
     font-size: 48px;

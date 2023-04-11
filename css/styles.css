@@ -54,7 +54,7 @@ img {
 .homepage-hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 170px 20px;
+  padding: 250px 20px 170px 20px;
 }
 
 .homepage-hero h2 {
@@ -134,14 +134,68 @@ img {
 }
 
 .logo {
-  max-height: 80px;
+  max-height: 70px;
 }
 
-.fa-brands,
-.fa-regular {
-  font-size: 40px;
-  text-align: center;
+footer {
+  margin: 60px 0;
+}
+
+footer h3 {
+  font-size: 48px;
+  text-align: left;
+}
+
+footer .contact-box p {
+  margin: 0;
+  text-align: left;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 45px 100px;
+  border-radius: 10px;
+}
+
+.contact-links a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 16px;
+}
+
+.contact-links a:hover {
   color: var(--branding-color);
+}
+
+footer .btn {
+  margin-top: 20px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 22px;
+  margin: 50px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 15px;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
 }
 
 @media (max-width: 1000px) {
@@ -155,7 +209,7 @@ img {
   }
 
   .homepage-hero {
-    padding: 80px 20px;
+    padding: 150px 20px 100px;
   }
 
   .homepage-hero h2 {
@@ -180,5 +234,27 @@ img {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  footer .contact-box {
+    padding: 30px;
+  }
+
+  footer .contact-box h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  footer .contact-box p {
+    text-align: center;
+  }
+
+  footer .contact-box .btn {
+    font-size: 12px;
+    padding: 20px 5px;
+  }
+
+  footer .email-link {
+    font-size: 18px;
   }
 }

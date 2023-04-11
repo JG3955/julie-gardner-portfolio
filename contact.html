@@ -35,83 +35,119 @@
   <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-custom navbar-light">
       <div class="container navbar-container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
           <img src="/images/logo.png" alt="julie gardner logo" class="logo" />
         </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="/"
-                  >Home <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/work.html">Work</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link active" href="/contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/work.html">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
+
     <div class="content-container container">
-      <div class="row">
-        <div class="col-lg mb-5">
-          <div class="content">
-            <h1 class="mb-4">Let's connect!</h1>
+      <div class="content contact-links">
+        <h1 class="mb-5">Let's Connect!</h1>
+        <div class="contact-links">
+          <h3 class="text-start">Email</h3>
+          <p class="text-start">
+            <a href="mailto:julie.gardner361@gmail.com"
+              >julie.gardner361@gmail.com</a
+            >
+          </p>
+          <h3 class="text-start">github</h3>
+          <p class="text-start">
+            <a href="https://github.com/JG3955" target="_blank"
+              >github.com/JG3955</a
+            >
+          </p>
+          <h3 class="text-start">instagram</h3>
+          <p class="text-start">
+            <a href="https://www.instagram.com/gitglow/" target="_blank"
+              >@gitglow</a
+            >
+          </p>
+          <h3 class="text-start">LinkedIn</h3>
+          <p class="text-start">
+            <a
+              href="https://www.linkedin.com/in/julie-gardner-8ab56214/"
+              target="_blank"
+              >linkedin.com/in/julie-gardner-8ab56214</a
+            >
+          </p>
+        </div>
+      </div>
+      <footer>
+        <div class="contact-box d-flex justify-content-between">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">I look forward to working together!</p>
           </div>
-          <div class="col-lg"></div>
-          </div>
-
-            <div class="row socials mt-5">
-              <div class="col"></div>
-              <div class="col">
-                <a href="mailto:julie.gardner361@gmail.com">
-                  <i class="fa-regular fa-envelope"></i
-                ></a>
-              </div>
-
-              <div class="col">
-                <a href="https://www.instagram.com/gitglow/" target="_blank">
-                  <i class="fa-brands fa-instagram"></i
-                ></a>
-              </div>
-              <div class="col">
-                <a
-                  href="https://www.linkedin.com/in/julie-gardner-8ab56214/"
-                  target="_blank"
-                >
-                  <i class="fa-brands fa-linkedin-in"></i
-                ></a>
-              </div>
-
-              <div class="col">
-                <a href="https://github.com/JG3955" target="_blank">
-                  <i class="fa-brands fa-github"></i
-                ></a>
-              </div>
-              <div class="col"></div>
-            </div>
+          <div>
+            <a href="/contact.html" class="btn btn-branding">Contact Me</a>
           </div>
         </div>
-        <div class="col-lg"></div>
-      </div>
+        <div class="d-flex justify-content-center">
+          <a href="mailto:julie.gardner361@gmail.com" class="email-link"
+            >julie.gardner361@gmail.com</a
+          >
+        </div>
+        <div class="social-links text-center">
+          <a href="https://github.com/JG3955" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.instagram.com/gitglow/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/julie-gardner-8ab56214/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </div>
+      </footer>
     </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
